@@ -1,0 +1,38 @@
+body {
+  background-image: url("bg0.png");
+}
+h1 {
+  color: black;
+  font-family:"trebuchet ms", verdana, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family:"trebuchet ms", verdana, sans-serif;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+p {
+  color: white;
+  font-family:"trebuchet ms", verdana, sans-serif;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 50px;
+  background-color: hsla(0, 0%, 15%, 0.7);
+}
+
+/* unvisited link */
+a:link {
+  color: steelblue;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
