@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+
+  <h1> <a href="../../index.html">jsaur.net</a>/<a href="../index.html">games</a>/archive</h1>
+
+<p>
+The games listed here are all games I made during my Game Design & Development class during my senior year of high school. In that class, we had to make six games in one week each, and then one larger game prototype in the span of a month. The first four games and final game prototype had to be programmed in Java with the Processing application, which served as an additional challenge. You can download all of those games here, for Windows or Linux!<br><br>
+Please note that you need Java installed on your device to play some of these games. Also, I have not checked the Linux builds of these games. Please reach out to me if something is wrong!
+</p>
+
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p2>Lorem ipsum...</p2>
+</div> 
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
+</body>
+</html>
