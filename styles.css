@@ -6,6 +6,18 @@ h1 {
   font-family:"trebuchet ms", verdana, sans-serif;
 }
 
+h1_1 {
+  color: black;
+  font-family:"trebuchet ms", verdana, sans-serif;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
 h2 {
   color: white;
   font-family:"trebuchet ms", verdana, sans-serif;
